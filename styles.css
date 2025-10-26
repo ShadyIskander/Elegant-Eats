@@ -101,7 +101,7 @@ h1, h2, h3, h4 {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('Cover_4.JPG') center no-repeat;
+    background: url('Cover_4.jpg') center no-repeat;
     background-size: 100%; /* Close to cover but not zoomed at start */
     display: flex;
     align-items: center;
