@@ -9,6 +9,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- EmailJS for automatic email notifications -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- changed code -->
+    <style>
+        /* Mobile: show the contact form before contact info */
+        @media (max-width: 767px) {
+            .contact-content {
+                display: flex;
+                flex-direction: column;
+            }
+            .contact-form {
+                order: -1; /* put form before .contact-info */
+                width: 100%;
+            }
+            .contact-info {
+                order: 0;
+                width: 100%;
+            }
+
+            /* keep hero content away from the edges on small screens (horizontal padding only) */
+            .hero-content {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
